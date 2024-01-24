@@ -11,7 +11,7 @@ describe('mayorDeEdad', () => {
     expect(mayorDeEdad(18)).toBe(true);
   });
 
-  test('si la entrada es mayor a 18, devuelve true', () => {
+  test('si la entrada es mayor a 18, devuelve un true', () => {
     expect(mayorDeEdad(25)).toBe(true);
   });
 
