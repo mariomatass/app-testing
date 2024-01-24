@@ -49,7 +49,7 @@ describe('mayorDeEdad', () => {
         expect(ageInput).toBeInTheDocument();
       });
 
-      it('renders an h2 element', () => {
+      it('renders an h6 element', () => {
         render(<Formulario />);
         const headingElement = screen.getByRole('heading', { level: 6, name: /rellena el formulario/i });
         expect(headingElement).toBeInTheDocument();
