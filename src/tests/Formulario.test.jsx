@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
-import Formulario, { mayorDeEdad } from "C:\\Users\\DAM2\\Desktop\\app-testing\\src\\components\\Formulario";
+import Formulario, { mayorDeEdad } from "..\\components\\Formulario";
 
 describe('mayorDeEdad', () => {
   test('devuelve un valor booleano', () => {
