@@ -45,7 +45,7 @@ return <>
             margin: '50px auto'
         }}
         >
-        <h6>Rellena el formulario</h6>
+        <h2>Rellena el formulario</h2>
         <Avatar alt='icono' src='/gato.png' />
         <form onSubmit={handleSubmit}>
             <TextField 

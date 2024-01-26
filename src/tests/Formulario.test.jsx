@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
-import Formulario, { mayorDeEdad } from "..\\components\\Formulario";
+import Formulario, { mayorDeEdad } from "../components/Formulario";
 
 describe('mayorDeEdad', () => {
   test('devuelve un valor booleano', () => {
@@ -51,7 +51,7 @@ describe('mayorDeEdad', () => {
 
       it('renders an h6 element', () => {
         render(<Formulario />);
-        const headingElement = screen.getByRole('heading', { level: 6, name: /rellena el formulario/i });
+        const headingElement = screen.getByRole('heading', { level: 2, name: /rellena el formulario/i });
         expect(headingElement).toBeInTheDocument();
       });
     });
